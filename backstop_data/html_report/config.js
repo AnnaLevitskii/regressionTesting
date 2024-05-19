@@ -1,0 +1,42 @@
+report({
+  "testSuite": "BackstopJS",
+  "tests": [
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Pantheon_Homepage_0__0_phone.png",
+        "test": "../bitmaps_test/20240520-005208/backstop_default_Pantheon_Homepage_0__0_phone.png",
+        "selector": "",
+        "fileName": "backstop_default_Pantheon_Homepage_0__0_phone.png",
+        "label": "Pantheon Homepage",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "https://pantheonweeklydemosite.lndo.site/",
+        "referenceUrl": "https://pantheondemo.com/",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "engineErrorMsg": "net::ERR_CONNECTION_REFUSED at https://pantheonweeklydemosite.lndo.site/",
+        "error": "Reference file not found /Users/anna/Desktop/CodeEXX/regressionTesting/backstop_data/bitmaps_reference/backstop_default_Pantheon_Homepage_0__0_phone.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Pantheon_Homepage_0__1_pc.png",
+        "test": "../bitmaps_test/20240520-005208/backstop_default_Pantheon_Homepage_0__1_pc.png",
+        "selector": "",
+        "fileName": "backstop_default_Pantheon_Homepage_0__1_pc.png",
+        "label": "Pantheon Homepage",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "https://pantheonweeklydemosite.lndo.site/",
+        "referenceUrl": "https://pantheondemo.com/",
+        "expect": 0,
+        "viewportLabel": "pc",
+        "engineErrorMsg": "net::ERR_CONNECTION_REFUSED at https://pantheonweeklydemosite.lndo.site/",
+        "error": "Reference file not found /Users/anna/Desktop/CodeEXX/regressionTesting/backstop_data/bitmaps_reference/backstop_default_Pantheon_Homepage_0__1_pc.png"
+      },
+      "status": "fail"
+    }
+  ],
+  "id": "backstop_default"
+});
