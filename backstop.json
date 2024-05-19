@@ -7,22 +7,22 @@
       "height": 480
     },
     {
-      "label": "tablet",
-      "width": 1024,
-      "height": 768
+      "label": "pc",
+      "width": 2560,
+      "height": 1600
     }
   ],
   "onBeforeScript": "puppet/onBefore.js",
   "onReadyScript": "puppet/onReady.js",
   "scenarios": [
     {
-      "label": "BackstopJS Homepage",
+      "label": "Pantheon Homepage",
       "cookiePath": "backstop_data/engine_scripts/cookies.json",
-      "url": "https://garris.github.io/BackstopJS/",
-      "referenceUrl": "",
+      "url": "https://pantheonweeklydemosite.lndo.site/",
+      "referenceUrl": "https://pantheondemo.com/",
       "readyEvent": "",
       "readySelector": "",
-      "delay": 0,
+      "delay": 1000,
       "hideSelectors": [],
       "removeSelectors": [],
       "hoverSelector": "",
